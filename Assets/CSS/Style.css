@@ -1,0 +1,185 @@
+Body {
+    Background-image: url(https://images.wallpaperscraft.com/image/metal_lines_stripes_light_shiny_silver_18401_1920x1080.jpg);
+    margin: 0%;
+    
+    
+
+
+
+}
+
+header { 
+    background-color: white;
+    height: 120px;
+
+}
+#MH {
+    Color: White;
+    Background: rgb(32,178,170);
+    width: 25%;
+    padding: 41px 10px;
+    float: left;
+    text-align: center;
+    margin: 0px 0px 0px 120px;
+    
+
+    
+    
+
+}
+
+.separator {
+    border-right: 1px solid grey;
+    margin-right: 1px; 
+}
+
+
+
+.nav {
+    size: 100px;
+    color: lightgrey;
+    font-family: Arial;
+    Background: white;
+    float: right;
+    width: 50%;
+    padding: 0 0 25px 165px;
+    margin-top: 72.8px;
+    text-align: center;
+}
+.nav a {
+    text-decoration: none;
+}
+
+#imgdivider {
+    Background: White;
+    Float: left;
+    Width: 100%;
+    Margin: 0 0 15px 0;
+    Border-top: grey solid 3px;
+}
+
+#image {
+    Float: left;
+    Width: 250px;
+    Margin-right: 15px;
+    margin-bottom: 15px;
+    position: relative;
+}
+
+p { 
+    Width: 852.26px;
+    Height: 147.1px;
+    margin-top: 0;
+    
+
+
+}
+
+#bottom-header {
+    margin-top: 200px;
+    Background-color: #2F4F4F;
+    border-top: grey solid 3px;
+
+
+}
+
+h6 { 
+    text-align: center;
+    Margin: 105px 736.07px 0 736.07px;
+    
+}
+
+#content-box {
+    Margin-left: 300px;
+    Width: 852.26px;
+    Height: 293.6px;
+    Margin-right: 426.13px;
+    Background-color: white;
+    border: white 10px solid;
+    
+    
+}
+
+h2 { 
+    text-align: center;
+    background-color: white;
+    Border-bottom: grey 1px solid;
+    border-left: white 10px solid;
+    border-right:white 10px solid;
+    border-top: white 15px solid;
+    margin-bottom: 0;
+    width: 852.26px;
+    Margin-left: 300px;
+    color: rgb(32,178,170);
+}
+
+.form {
+    font-family: Arial, Helvetica, sans-serif;
+    color: grey;
+    
+}
+
+input {
+    width: 800px;
+    
+}
+
+#message-box {
+    height: 75px;
+}
+
+.button {
+    width: 200px;
+    margin-left: 320px;
+    background-color: rgb(32,178,170);
+    border: grey 1px solid;
+    color: white;
+    font-weight: bolder;
+    
+}
+
+.button :hover {
+    background-color: rgb(72, 35, 142);
+}
+
+#p-content-box {
+    Margin-left: 300px;
+    Width: 852.26px;
+    Height: 693.6px;
+    Margin-right: 426.13px;
+    Background-color: white;
+    border: white 10px solid;
+}
+
+h4 {
+    width: 200px;
+    height: px;
+    margin: 0px 0px;
+    text-align: center;
+    background:  rgb(32,178,170);
+    margin-top: 150px;
+    position: absolute;
+    Color: white;
+    
+
+
+
+}
+img {
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    
+    
+
+}
+
+.project {
+    width: 200px;
+    height: 200px;
+    margin-right: 100px;
+    float: left;
+    margin-bottom: 20px;
+    
+}
+  
