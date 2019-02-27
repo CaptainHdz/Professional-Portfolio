@@ -1,6 +1,7 @@
 Body {
     Background-image: url(https://images.wallpaperscraft.com/image/metal_lines_stripes_light_shiny_silver_18401_1920x1080.jpg);
     margin: 0%;
+    font-family: ;
     
     
 
@@ -60,7 +61,7 @@ header {
 
 #image {
     Float: left;
-    Width: 250px;
+    Width: 200px;
     Margin-right: 15px;
     margin-bottom: 15px;
     position: relative;
