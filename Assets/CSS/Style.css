@@ -14,8 +14,8 @@ header {
     height: 120px;
 
 }
-#MH {
-    Color: White;
+.MH {
+    Color: rgba(255, 255, 255, 0.459);
     Background: rgb(32,178,170);
     width: 25%;
     padding: 41px 10px;
@@ -39,7 +39,7 @@ header {
 .nav {
     size: 100px;
     color: lightgrey;
-    font-family: Arial;
+    font-family: sans-serif;
     Background: white;
     float: right;
     width: 50%;
@@ -51,7 +51,7 @@ header {
     text-decoration: none;
 }
 
-#imgdivider {
+.imgdivider {
     Background: White;
     Float: left;
     Width: 100%;
@@ -59,7 +59,7 @@ header {
     Border-top: grey solid 3px;
 }
 
-#image {
+.image {
     Float: left;
     Width: 200px;
     Margin-right: 15px;
@@ -69,7 +69,7 @@ header {
 
 p { 
     Width: 852.26px;
-    Height: ;
+    font-family: sans-serif;
     margin-top: 0;
     
 
@@ -80,6 +80,8 @@ p {
     margin-top: 200px;
     Background-color: #2F4F4F;
     border-top: grey solid 3px;
+    
+
 
 
 }
@@ -87,10 +89,11 @@ p {
 h6 { 
     text-align: center;
     Margin: 105px 736.07px 0 736.07px;
+    color: white;
     
 }
 
-#content-box {
+.content-box {
     Margin-left: 300px;
     Width: 852.26px;
     Height: 293.6px;
@@ -143,7 +146,7 @@ input {
     background-color: rgb(72, 35, 142);
 }
 
-#p-content-box {
+.p-content-box {
     Margin-left: 300px;
     Width: 852.26px;
     Height: 693.6px;
@@ -184,3 +187,143 @@ img {
     
 }
   
+/* The media queries begin here */
+@media screen and (max-width: 640px) {
+
+.MH {
+    width: 100%;
+    margin-left: 0;
+}
+
+.nav {
+    width: 100%;
+    margin-top: 0%;
+}
+
+header {
+    width: 100%;
+    background-color: rgba(32,178,170);
+}
+
+h2 {
+    width: 100%;
+    margin: 10% 10% 0% 0%;
+    padding: 0%;
+    border: 0;
+}
+
+.p-content-box {
+    margin-right: 0%;
+    margin-left: 0%;
+    width: 100%;
+    border: 0;
+}
+
+.content-box {
+    width: 100%;
+    margin-left: 0%;
+    border: 0;
+}
+
+.image {
+    width: 50%;
+    margin: 0% 25% 1% 25%;
+
+}
+
+p {
+    width: 100%;
+    margin-left: 0%;
+}
+input {
+    width: 90%;
+}
+}
+
+@media screen and (max-width: 760px) {
+
+header {
+    width: 100%;
+    margin-right: 0%;
+}
+
+.imgdivider {
+    width: 100%;
+}
+
+.MH {
+    padding-bottom: .5%;
+}
+
+.nav {
+width: 25%;
+padding: 0%;
+}
+
+h2 {
+    width: 99%;
+    margin-left: 1%;
+    border: 0;
+}
+
+.content-box {
+    width: 99%;
+    margin-left: 1%;
+    border: 0;
+    
+}
+
+p {
+    width: 100%;
+}
+input {
+    width: 90%;
+}
+
+.p-content-box {
+    margin-left: 0;
+    width: 100%;
+}
+
+
+
+
+}
+
+@media screen and (max-width: 960px) {
+
+header {
+    width: 100%;
+
+}
+
+.nav { 
+    width: 25%;
+}
+
+.content-box {
+    margin-left: 5%;
+}
+
+h2 {
+    margin-left: 5%;
+
+}
+
+.MH {
+padding-bottom: .5%;
+}
+
+.p-content-box {
+
+    margin-left: 5%;
+}
+
+
+
+
+
+
+}
+
+
